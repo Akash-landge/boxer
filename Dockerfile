@@ -1,5 +1,5 @@
 FROM ubuntu
-LABEL akash
+LABEL akash="07"
 RUN apt update &&\
  apt install nunzip nginx -y && \
  rm -rf /usr/share/nginx/index.html/
