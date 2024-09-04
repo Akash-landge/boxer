@@ -7,5 +7,5 @@ WORKDIR /usr/share/nginx/html/
 COPY oxer.zip .
 RUN unzip oxer.zip &&\
     mv oxer-html/* .
-EXPOSE 81
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
